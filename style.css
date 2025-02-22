@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+  text-align: center;
+}
+
+figure{
+  margin: auto;
+  font-size: smaller;
+  text-align: center;
+}
+
+nav a{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+p#featured-property{
+  width: 800px;
+  margin: 10px auto;
+  text-align: center
+
+}
+.details {
+  clear: both;
+  overflow: hidden;
+}
+
+div .details  {
+  float: left;
+  margin-right: 20px;
+}
+
+div .details{
+  float: left;
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+#details{
+  width: 100%;
+  overflow: hidden;
+  background-color: red;
+  padding: 10px 0
+}
+#details div{
+  float: left;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: grey;
+  border: 1px solid purple;
+}
